@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01260CA41EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01260CA31EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m */; };
+		01260CA71EFBC97F002D1D4A /* UIColor+GetRGBWithHexadecimalColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01260CA21EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01260CA81EFBC982002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m in Headers */ = {isa = PBXBuildFile; fileRef = 01260CA31EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		01260CA91EFBC9B2002D1D4A /* Hexadecimal.plist in Sources */ = {isa = PBXBuildFile; fileRef = 01260CA51EFBC91F002D1D4A /* Hexadecimal.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01260C941EFBC872002D1D4A /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01260C961EFBC872002D1D4A /* libGetRGBWithHexadecimalColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGetRGBWithHexadecimalColor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01260CA21EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetRGBWithHexadecimalColor.h"; sourceTree = "<group>"; };
+		01260CA31EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetRGBWithHexadecimalColor.m"; sourceTree = "<group>"; };
+		01260CA51EFBC91F002D1D4A /* Hexadecimal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Hexadecimal.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01260C931EFBC872002D1D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01260C8D1EFBC872002D1D4A = {
+			isa = PBXGroup;
+			children = (
+				01260C981EFBC872002D1D4A /* GetRGBWithHexadecimalColor */,
+				01260C971EFBC872002D1D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01260C971EFBC872002D1D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01260C961EFBC872002D1D4A /* libGetRGBWithHexadecimalColor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01260C981EFBC872002D1D4A /* GetRGBWithHexadecimalColor */ = {
+			isa = PBXGroup;
+			children = (
+				01260CA21EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.h */,
+				01260CA31EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m */,
+				01260CA51EFBC91F002D1D4A /* Hexadecimal.plist */,
+			);
+			path = GetRGBWithHexadecimalColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01260CA61EFBC973002D1D4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01260CA71EFBC97F002D1D4A /* UIColor+GetRGBWithHexadecimalColor.h in Headers */,
+				01260CA81EFBC982002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01260C951EFBC872002D1D4A /* GetRGBWithHexadecimalColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01260C9F1EFBC872002D1D4A /* Build configuration list for PBXNativeTarget "GetRGBWithHexadecimalColor" */;
+			buildPhases = (
+				01260C921EFBC872002D1D4A /* Sources */,
+				01260C931EFBC872002D1D4A /* Frameworks */,
+				01260C941EFBC872002D1D4A /* Copy Files */,
+				01260CA61EFBC973002D1D4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetRGBWithHexadecimalColor;
+			productName = GetRGBWithHexadecimalColor;
+			productReference = 01260C961EFBC872002D1D4A /* libGetRGBWithHexadecimalColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01260C8E1EFBC872002D1D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = " 刘勇虎";
+				TargetAttributes = {
+					01260C951EFBC872002D1D4A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7HWBJD76GH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01260C911EFBC872002D1D4A /* Build configuration list for PBXProject "GetRGBWithHexadecimalColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01260C8D1EFBC872002D1D4A;
+			productRefGroup = 01260C971EFBC872002D1D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01260C951EFBC872002D1D4A /* GetRGBWithHexadecimalColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01260C921EFBC872002D1D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01260CA41EFBC892002D1D4A /* UIColor+GetRGBWithHexadecimalColor.m in Sources */,
+				01260CA91EFBC9B2002D1D4A /* Hexadecimal.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01260C9D1EFBC872002D1D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01260C9E1EFBC872002D1D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01260CA01EFBC872002D1D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7HWBJD76GH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01260CA11EFBC872002D1D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7HWBJD76GH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01260C911EFBC872002D1D4A /* Build configuration list for PBXProject "GetRGBWithHexadecimalColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01260C9D1EFBC872002D1D4A /* Debug */,
+				01260C9E1EFBC872002D1D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01260C9F1EFBC872002D1D4A /* Build configuration list for PBXNativeTarget "GetRGBWithHexadecimalColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01260CA01EFBC872002D1D4A /* Debug */,
+				01260CA11EFBC872002D1D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01260C8E1EFBC872002D1D4A /* Project object */;
+}
